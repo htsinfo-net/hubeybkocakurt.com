@@ -1,0 +1,82 @@
+
+.square_2 {
+    width: 100px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #000;
+    float: left;
+    margin-top: 10%;
+    margin-left: 20%;
+    
+}
+
+.square_3 {
+    width: 100px;
+    height: 300px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D9D9D9;
+    margin-top: 17%;
+    margin-left: 100px;
+    float: left;
+}
+.square_4 {
+    width: 100px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #000;
+    float: left;
+    margin-top: 10%;
+    margin-left: 100px;
+    
+}
+
+.parent{
+    width: 400px;
+    height: 600px;
+    flex-shrink: 0;
+    float: left;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.child_1 {
+    width: 100px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #000;
+    float: left;
+}
+.child_2 {
+    width: 100px;
+    height: 300px;
+    transform: rotate(44.500deg);
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D9D9D9;
+    float: left;
+    margin-left: 100px;
+
+ 
+}
+.child_3 {
+    width: 100px;
+    height: 300px;
+    transform: rotate(-44.500deg);
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D9D9D9;
+    float: left;
+    margin-left: 100px;
+
+}
+
+
+.rotated-text {
+    color: white;
+    transform: rotate(90deg);
+    padding-left: 100px;
+}
